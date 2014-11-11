@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23B8F8B1A11C8BB00E8A26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23B8F8A1A11C8BB00E8A26B /* Foundation.framework */; };
+		C23B8F8D1A11C8BB00E8A26B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23B8F8C1A11C8BB00E8A26B /* CoreGraphics.framework */; };
+		C23B8F8F1A11C8BB00E8A26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23B8F8E1A11C8BB00E8A26B /* UIKit.framework */; };
+		C23B8F951A11C8BB00E8A26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C23B8F931A11C8BB00E8A26B /* InfoPlist.strings */; };
+		C23B8F971A11C8BB00E8A26B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B8F961A11C8BB00E8A26B /* main.m */; };
+		C23B8F9B1A11C8BC00E8A26B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B8F9A1A11C8BC00E8A26B /* AppDelegate.m */; };
+		C23B8F9E1A11C8BC00E8A26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23B8F9C1A11C8BC00E8A26B /* Main.storyboard */; };
+		C23B8FA11A11C8BC00E8A26B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B8FA01A11C8BC00E8A26B /* ViewController.m */; };
+		C23B8FA31A11C8BC00E8A26B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23B8FA21A11C8BC00E8A26B /* Images.xcassets */; };
+		C23B8FAA1A11C8BC00E8A26B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23B8FA91A11C8BC00E8A26B /* XCTest.framework */; };
+		C23B8FAB1A11C8BC00E8A26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23B8F8A1A11C8BB00E8A26B /* Foundation.framework */; };
+		C23B8FAC1A11C8BC00E8A26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23B8F8E1A11C8BB00E8A26B /* UIKit.framework */; };
+		C23B8FB41A11C8BC00E8A26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C23B8FB21A11C8BC00E8A26B /* InfoPlist.strings */; };
+		C23B8FB61A11C8BC00E8A26B /* testDictationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C23B8FB51A11C8BC00E8A26B /* testDictationTests.m */; };
+		C2D6C1411A11F96E0006140E /* VoiceInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C1401A11F96E0006140E /* VoiceInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C23B8FAD1A11C8BC00E8A26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23B8F7F1A11C8BB00E8A26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23B8F861A11C8BB00E8A26B;
+			remoteInfo = testDictation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C23B8F871A11C8BB00E8A26B /* testDictation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDictation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23B8F8A1A11C8BB00E8A26B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C23B8F8C1A11C8BB00E8A26B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C23B8F8E1A11C8BB00E8A26B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C23B8F921A11C8BB00E8A26B /* testDictation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testDictation-Info.plist"; sourceTree = "<group>"; };
+		C23B8F941A11C8BB00E8A26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C23B8F961A11C8BB00E8A26B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C23B8F981A11C8BB00E8A26B /* testDictation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testDictation-Prefix.pch"; sourceTree = "<group>"; };
+		C23B8F991A11C8BB00E8A26B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C23B8F9A1A11C8BC00E8A26B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C23B8F9D1A11C8BC00E8A26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C23B8F9F1A11C8BC00E8A26B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C23B8FA01A11C8BC00E8A26B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C23B8FA21A11C8BC00E8A26B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C23B8FA81A11C8BC00E8A26B /* testDictationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDictationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23B8FA91A11C8BC00E8A26B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C23B8FB11A11C8BC00E8A26B /* testDictationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testDictationTests-Info.plist"; sourceTree = "<group>"; };
+		C23B8FB31A11C8BC00E8A26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C23B8FB51A11C8BC00E8A26B /* testDictationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDictationTests.m; sourceTree = "<group>"; };
+		C2D6C13F1A11F96E0006140E /* VoiceInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceInputView.h; sourceTree = "<group>"; };
+		C2D6C1401A11F96E0006140E /* VoiceInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23B8F841A11C8BB00E8A26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23B8F8D1A11C8BB00E8A26B /* CoreGraphics.framework in Frameworks */,
+				C23B8F8F1A11C8BB00E8A26B /* UIKit.framework in Frameworks */,
+				C23B8F8B1A11C8BB00E8A26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23B8FA51A11C8BC00E8A26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23B8FAA1A11C8BC00E8A26B /* XCTest.framework in Frameworks */,
+				C23B8FAC1A11C8BC00E8A26B /* UIKit.framework in Frameworks */,
+				C23B8FAB1A11C8BC00E8A26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23B8F7E1A11C8BB00E8A26B = {
+			isa = PBXGroup;
+			children = (
+				C23B8F901A11C8BB00E8A26B /* testDictation */,
+				C23B8FAF1A11C8BC00E8A26B /* testDictationTests */,
+				C23B8F891A11C8BB00E8A26B /* Frameworks */,
+				C23B8F881A11C8BB00E8A26B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23B8F881A11C8BB00E8A26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23B8F871A11C8BB00E8A26B /* testDictation.app */,
+				C23B8FA81A11C8BC00E8A26B /* testDictationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23B8F891A11C8BB00E8A26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C23B8F8A1A11C8BB00E8A26B /* Foundation.framework */,
+				C23B8F8C1A11C8BB00E8A26B /* CoreGraphics.framework */,
+				C23B8F8E1A11C8BB00E8A26B /* UIKit.framework */,
+				C23B8FA91A11C8BC00E8A26B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23B8F901A11C8BB00E8A26B /* testDictation */ = {
+			isa = PBXGroup;
+			children = (
+				C23B8F991A11C8BB00E8A26B /* AppDelegate.h */,
+				C23B8F9A1A11C8BC00E8A26B /* AppDelegate.m */,
+				C23B8F9C1A11C8BC00E8A26B /* Main.storyboard */,
+				C23B8F9F1A11C8BC00E8A26B /* ViewController.h */,
+				C23B8FA01A11C8BC00E8A26B /* ViewController.m */,
+				C2D6C13F1A11F96E0006140E /* VoiceInputView.h */,
+				C2D6C1401A11F96E0006140E /* VoiceInputView.m */,
+				C23B8FA21A11C8BC00E8A26B /* Images.xcassets */,
+				C23B8F911A11C8BB00E8A26B /* Supporting Files */,
+			);
+			path = testDictation;
+			sourceTree = "<group>";
+		};
+		C23B8F911A11C8BB00E8A26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23B8F921A11C8BB00E8A26B /* testDictation-Info.plist */,
+				C23B8F931A11C8BB00E8A26B /* InfoPlist.strings */,
+				C23B8F961A11C8BB00E8A26B /* main.m */,
+				C23B8F981A11C8BB00E8A26B /* testDictation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C23B8FAF1A11C8BC00E8A26B /* testDictationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C23B8FB51A11C8BC00E8A26B /* testDictationTests.m */,
+				C23B8FB01A11C8BC00E8A26B /* Supporting Files */,
+			);
+			path = testDictationTests;
+			sourceTree = "<group>";
+		};
+		C23B8FB01A11C8BC00E8A26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C23B8FB11A11C8BC00E8A26B /* testDictationTests-Info.plist */,
+				C23B8FB21A11C8BC00E8A26B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23B8F861A11C8BB00E8A26B /* testDictation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23B8FB91A11C8BC00E8A26B /* Build configuration list for PBXNativeTarget "testDictation" */;
+			buildPhases = (
+				C23B8F831A11C8BB00E8A26B /* Sources */,
+				C23B8F841A11C8BB00E8A26B /* Frameworks */,
+				C23B8F851A11C8BB00E8A26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testDictation;
+			productName = testDictation;
+			productReference = C23B8F871A11C8BB00E8A26B /* testDictation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C23B8FA71A11C8BC00E8A26B /* testDictationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23B8FBC1A11C8BC00E8A26B /* Build configuration list for PBXNativeTarget "testDictationTests" */;
+			buildPhases = (
+				C23B8FA41A11C8BC00E8A26B /* Sources */,
+				C23B8FA51A11C8BC00E8A26B /* Frameworks */,
+				C23B8FA61A11C8BC00E8A26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23B8FAE1A11C8BC00E8A26B /* PBXTargetDependency */,
+			);
+			name = testDictationTests;
+			productName = testDictationTests;
+			productReference = C23B8FA81A11C8BC00E8A26B /* testDictationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23B8F7F1A11C8BB00E8A26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "c-geru";
+				TargetAttributes = {
+					C23B8FA71A11C8BC00E8A26B = {
+						TestTargetID = C23B8F861A11C8BB00E8A26B;
+					};
+				};
+			};
+			buildConfigurationList = C23B8F821A11C8BB00E8A26B /* Build configuration list for PBXProject "testDictation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C23B8F7E1A11C8BB00E8A26B;
+			productRefGroup = C23B8F881A11C8BB00E8A26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23B8F861A11C8BB00E8A26B /* testDictation */,
+				C23B8FA71A11C8BC00E8A26B /* testDictationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23B8F851A11C8BB00E8A26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23B8FA31A11C8BC00E8A26B /* Images.xcassets in Resources */,
+				C23B8F951A11C8BB00E8A26B /* InfoPlist.strings in Resources */,
+				C23B8F9E1A11C8BC00E8A26B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23B8FA61A11C8BC00E8A26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23B8FB41A11C8BC00E8A26B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23B8F831A11C8BB00E8A26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6C1411A11F96E0006140E /* VoiceInputView.m in Sources */,
+				C23B8FA11A11C8BC00E8A26B /* ViewController.m in Sources */,
+				C23B8F9B1A11C8BC00E8A26B /* AppDelegate.m in Sources */,
+				C23B8F971A11C8BB00E8A26B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23B8FA41A11C8BC00E8A26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23B8FB61A11C8BC00E8A26B /* testDictationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23B8FAE1A11C8BC00E8A26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23B8F861A11C8BB00E8A26B /* testDictation */;
+			targetProxy = C23B8FAD1A11C8BC00E8A26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C23B8F931A11C8BB00E8A26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23B8F941A11C8BB00E8A26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C23B8F9C1A11C8BC00E8A26B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23B8F9D1A11C8BC00E8A26B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C23B8FB21A11C8BC00E8A26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23B8FB31A11C8BC00E8A26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C23B8FB71A11C8BC00E8A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C23B8FB81A11C8BC00E8A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23B8FBA1A11C8BC00E8A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testDictation/testDictation-Prefix.pch";
+				INFOPLIST_FILE = "testDictation/testDictation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C23B8FBB1A11C8BC00E8A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testDictation/testDictation-Prefix.pch";
+				INFOPLIST_FILE = "testDictation/testDictation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C23B8FBD1A11C8BC00E8A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testDictation.app/testDictation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testDictation/testDictation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "testDictationTests/testDictationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C23B8FBE1A11C8BC00E8A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testDictation.app/testDictation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testDictation/testDictation-Prefix.pch";
+				INFOPLIST_FILE = "testDictationTests/testDictationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23B8F821A11C8BB00E8A26B /* Build configuration list for PBXProject "testDictation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23B8FB71A11C8BC00E8A26B /* Debug */,
+				C23B8FB81A11C8BC00E8A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23B8FB91A11C8BC00E8A26B /* Build configuration list for PBXNativeTarget "testDictation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23B8FBA1A11C8BC00E8A26B /* Debug */,
+				C23B8FBB1A11C8BC00E8A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23B8FBC1A11C8BC00E8A26B /* Build configuration list for PBXNativeTarget "testDictationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23B8FBD1A11C8BC00E8A26B /* Debug */,
+				C23B8FBE1A11C8BC00E8A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C23B8F7F1A11C8BB00E8A26B /* Project object */;
+}
